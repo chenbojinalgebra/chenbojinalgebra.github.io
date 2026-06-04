@@ -1,94 +1,175 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Chenbo JIN</title>
-    <style>
-        body { font-family: Arial, sans-serif; max-width: 800px; margin: auto; padding: 20px; }
-        h1, h2 { color: #333; }
-        ul { list-style-type: square; }
-        a { color: #0645AD; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        img { max-width: 200px; border-radius: 10px; display: block; margin-bottom: 20px; }
-    </style>
+<meta charset="UTF-8">
+<title>Chenbo JIN | Mathematics</title>
+<meta name="description" content="PhD student Chenbo JIN at University of Cologne. Research: DG categories, DG algebras, derived categories, singularity categories.">
+<meta name="keywords" content="Chenbo JIN, Mathematics, DG Categories, Derived Categories, Singularity Categories">
+
+<style>
+/* 全局样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+a { text-decoration: none; color: #0645AD; }
+a:hover { text-decoration: underline; }
+
+/* 顶部导航栏 */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar a {
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* 页面容器 */
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: 80px auto 30px; /* 顶部留给导航栏 */
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* 左侧栏 */
+.sidebar {
+    width: 250px;
+    background: #f1f1f1;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.sidebar h2 {
+    margin: 10px 0 5px;
+    color: #2c3e50;
+}
+
+.sidebar p { margin: 5px 0; font-size: 14px; }
+
+/* 右侧内容 */
+.content {
+    flex: 1;
+    padding: 30px;
+}
+
+.content h2 {
+    color: #2980b9;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+.content ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+/* 响应式 */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin: 100px 20px 30px;
+    }
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+}
+</style>
 </head>
+
 <body>
 
-<h1>Chenbo JIN</h1>
-<!-- 在这里引用你的图片 -->
-<img src="24135.JPG"
-     alt="Chenbo JIN"
-     style="width:300px;border-radius:10px;">
+<!-- 顶部导航 -->
+<div class="navbar">
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#research">Research Interests</a>
+    <a href="#publications">Publications</a>
+    <a href="#teaching">Teaching</a>
+    <a href="#hobbies">Hobbies</a>
+</div>
 
-<p>Email: chenbojinalgebra@gmail.com</p>
+<div class="container">
+    <!-- 左侧栏 -->
+    <div class="sidebar">
+        <img src="24135.JPG" alt="Chenbo JIN">
+        <h2>Chenbo JIN</h2>
+        <p>Email: chenbojinalgebra@gmail.com</p>
+    </div>
 
-<h2>About Me</h2>
+    <!-- 右侧内容 -->
+    <div class="content">
 
-<p>Name: Chenbo JIN(金晨博)</p>
+        <h2 id="about">About Me</h2>
+        <p>
+            I am currently an M.S. student in Mathematics at East China Normal University.
+            Starting from October 2026, I will pursue my Ph.D. studies at the University of Cologne.
+            My research interests lie in representation theory, homological algebra, and triangulated categories,
+            with a focus on DG algebras, DG categories, derived categories, and singularity categories.
+        </p>
 
-<p>Hometown: Wenzhou, Zhejiang</p>
+        <h2 id="education">Education</h2>
+        <p><strong>2026.10–Present</strong><br>Ph.D. Student in Mathematics<br>University of Cologne</p>
+        <p><strong>2023.09–2026.06</strong><br>M.S. in Mathematics<br>East China Normal University<br>Supervisors: Professor Haibo Jin & Professor Guodong Zhou</p>
+        <p><strong>2019.09–2023.06</strong><br>B.S. in Mathematics<br>Northwest University</p>
 
-<p>
-I am a PhD student in Mathematics at University of Cologne (in the future).
-My research focuses on DG algebras, DG categories, derived categories,
-and singularity categories. I am especially interested in simple-minded
-collections, simple-minded systems, and their connections with
-representation theory and homological algebra.
-</p>
+        <h2 id="research">Research Interests</h2>
+        <ul>
+            <li>DG Categories and DG Algebras</li>
+            <li>Derived Categories and Singularity Categories</li>
+            <li>A Infty Categories and A Infty Algebras</li>
+            <li>Simple-minded Collections and Simple-minded Systems</li>
+            <li>Gentle Algebras and Geometric Models</li>
+        </ul>
 
-<h2>Education</h2>
+        <h2 id="publications">Publications</h2>
+        <p>Hope that in the near future it will be...</p>
 
-<p>
-<strong>2026.10–Present</strong><br>
-Ph.D. Student in Mathematics<br>
-University of Cologne
-</p>
+        <h2 id="teaching">Teaching</h2>
+        <ul>
+            <li>Calculus I - Fall 2025</li>
+            <li>Linear Algebra - Spring 2026</li>
+        </ul>
 
-<p>
-<strong>2023.09–2026.06</strong><br>
-M.S. in Mathematics<br>
-East China Normal University<br>
-Supervisor: Professor Haibo Jin and Professor Guodong Zhou
-</p>
+        <h2 id="hobbies">Hobbies</h2>
+        <ul>
+            <li>Traveling</li>
+            <li>Drinking</li>
+            <li>Hiking and Outdoor Activities</li>
+        </ul>
 
-<p>
-<strong>2019.09–2023.06</strong><br>
-B.S. in Mathematics<br>
-Northwest University
-</p>
+        <h2>Motto</h2>
+        <p>Life is a huge amusement park.</p>
 
+    </div>
+</div>
 
-<h2>Research Interests</h2>
-<ul>
-<li>DG Categories and DG algebras</li>
-<li>Derived Categories and Singularity Categories</li>
-<li>Simple-minded collections and Simple-minded systems</li>
-<li>Gentle Algebras and Geometric Models</li>
-<li>A Infty Categories and A Infty Algebras</li>
-</ul>
-
-<h2>Teaching</h2>
-<ul>
-    <li>Calculus I - Fall 2025</li>
-    <li>Linear Algebra - Spring 2026</li>
-</ul>
-
-<h2>Publications</h2>
-<ul>
-    <li>Hope that in the near future there will be...</li>
-</ul>
-
-<h2>Hobbies</h2>
-<ul>
-    <li>Traveling</li>
-    <li>Drinking</li>
-    <li>Hiking and Outdoor Activities</li>
-</ul>
-
-
-<h2>Motto</h2>
-<ul>
-    <li>Life is a huge amusement park.</li>
-</ul>
-    
 </body>
 </html>
